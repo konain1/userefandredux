@@ -8,6 +8,7 @@ function App() {
 const incrementHandler = ()=>{
 
   ref.current = ref.current + 1
+  setCount(count+1)
 }
 
 console.log(ref.current)
